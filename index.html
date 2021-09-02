@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      body {
+        background-color: #ddd;
+      }
+
+      .container {
+        display: block;
+        margin: auto;
+        width: 805px;
+        height: 680px;
+        background-color: #fffdfd;
+        border: 1px solid #fffdfd;
+      }
+
+      .content-box {
+        margin: auto;
+        width: 555px;
+        height: 405px;
+        padding-top: 103px;
+        font-size: 18px;
+      }
+
+      .content-items {
+        background-color: #e0edfa;
+        border: 1px solid #866f6f;
+        border-radius: 9px;
+        width: 555px;
+        height: 353px;
+      }
+
+      .input-div {
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+        position: relative;
+        left: 25px;
+        top: 20px;
+        margin-bottom: 40px;
+      }
+
+      .edit-btn {
+        background-color: #6fc0da;
+      }
+
+      .delete-btn {
+        background-color: #da6fa2;
+      }
+
+      input {
+        margin: 0;
+        width: 425px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        color: #867e7e;
+        font-size: 18px;
+      }
+
+      #add-btn {
+        background-color: #6fda9a;
+        width: 73px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      p {
+        color: #867e7e;
+        width: 350px;
+        margin-top: 12px;
+      }
+
+      li p,
+      li button {
+        display: inline-block;
+      }
+
+      li button {
+        color: #fcfcfc;
+        height: 26px;
+        width: 56px;
+        border: none;
+        border-radius: 5px;
+        transform: translateY(-3px);
+      }
+
+      li div {
+        background-color: #fff;
+        width: 505px;
+        height: 40px;
+        margin-bottom: 5px;
+        padding-left: 16px;
+        border-radius: 5px;
+      }
+    </style>
+    <title>FrontEnd-Mentorship-Challenge-00</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content-box">
+        <h2>Task Manager</h2>
+        <div class="content-items">
+          <div class="input-div">
+            <input type="text" value="Title" />
+            <button id="add-btn">ADD</button>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <p>Task 1</p>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>Task 2</p>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>Task 3</p>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
